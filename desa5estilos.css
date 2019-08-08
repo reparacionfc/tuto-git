@@ -1,0 +1,45 @@
+
+body{margin: 0; padding:0;}
+header{background: orange;padding-top: 30px;text-align: center;}
+h1{margin:0;text-align: center;}
+header h1{transition: all 3s;}
+header h1:hover{
+	background: #333;
+	color: orange;
+	padding: 25px 0;
+}
+h2{text-align: right; padding: 20px; text-transform: capitalize;color:white;}
+h2 span {color:red;}
+h3 {color: white; padding: 15px;font-weight: bold;margin:0;}
+
+.bg-yellow {background: yellow;}
+.bg-blue {background: blue;}
+.bg-green {background: green;}
+.bg-aqua {background: aqua;}
+.bg-grey {background: grey;}
+.bg-navy {background: navy;}
+.bg-red {background: red;}
+
+.col1, .col2, .col3 {float: left;max-width: 30%; padding:0 1em;}
+.col2 {
+	border-left:dotted 4px red;
+	border-right: dotted 4px blue;
+}
+.cabecera {background: url("img/drwho02.jpg");background-size: contain;}
+
+.clearfix {clear: both;}
+
+#autores {background: url("img/drwho01.jpg"); padding:2em;}
+#autores main {margin:0 auto;max-width: 90%;background: white;padding-bottom: 1.2em; }
+
+
+
+
+footer{
+	background: red;
+	background:linear-gradient(to left bottom,red,yellow,orange,green,blue,pink,indigo);
+	text-align: center;
+	font-size: 2em;
+	padding:10px;
+}
+footer p {color:white;}

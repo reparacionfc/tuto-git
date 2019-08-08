@@ -1,0 +1,40 @@
+.navbar {background-color:black;
+overflow:hidden;  }
+.navbar a{
+	float: left;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background:black;
+	padding: 15px 25px;
+
+}
+
+.navbar a:hover {background: orange;color: #333;}
+
+.desplegable {overflow: hidden;float: left;}
+.desplegable .btn{
+	font-size: 1em;
+	font-family: Helvetica, sans-serif;
+	color: white;
+	background: black;
+	padding: 15px 25px;
+	border: 0;
+}
+
+.desplegable .btn:hover{background:orange;color:#333;}
+
+.submenu {
+	display: none;
+	position: absolute;
+	min-height: 140px;
+	z-index: 2; /*siempre alto para asegurar que el submenu aparezca x encima de lo que pueda haber en la pagina*/ 
+}
+
+.submenu a{/*para que los elementos del submenu se muestren uno abajo del otro y no al lado*/
+	float: none;
+	display: block;
+}
+
+.desplegable:hover .submenu{display: block;}/*con esto hago que cuando esta en hover o sea cuando posiciono el mouse se muestre el submenu*/
